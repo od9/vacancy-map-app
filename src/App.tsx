@@ -7,7 +7,6 @@ import Test from './pages/Test'
 import Clients from './pages/Clients'
 
 function App() {
-  const [count, setCount] = useState(0)
   const [health, setHealth] = useState('pending')
 
   useEffect(() => {
